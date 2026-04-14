@@ -1,7 +1,7 @@
 create table if not exists dummy
 (
-    id varchar(255),
-    constraint dummy_pk primary key (id)
+    id varchar
+        constraint dummy_pk primary key
 );
 
 insert into dummy (id)
